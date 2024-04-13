@@ -1,0 +1,93 @@
+body {
+  	background-image: url("images/background.png");
+  	background-attachment: fixed;
+  	background-size: cover;
+}
+
+.profile {
+    padding: 10px;
+    width: 300px;
+    height: 430px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 15px; 
+    position: absolute; /* Изменили на relative */
+    color: white;
+    right: 0%;
+}
+
+.profile-name {
+  font-family: "Arial";
+  font-size: 24px;
+  position: absolute;
+  bottom: 76px; /* Отступ снизу */
+  right: 20px; /* Отступ справа */
+  color: white; 
+  text-underline-offset: 4px;
+}
+
+.list {
+  font-family: "Arial";
+  position: absolute;
+  padding: 10px;
+  width: 920px;
+  height: 100%;
+  background-color: rgba(70, 70, 70, 1);
+  top: 20%;
+  border-radius: 15px;
+  color: white;
+}
+
+@font-face {
+    font-family: 'Digital';
+    src: url('fonts/Technology.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.for_func1 {
+    font-size: 120px;
+    position: absolute;
+    top: 2%;
+    right: 82%;
+    color: white;
+    text-align: center;
+    font-family: 'Digital', sans-serif; 
+}
+
+.forbuttons {
+  text-align: center;
+  margin-left: 20%;
+}
+button {
+    position: static; /* Изменено на static, чтобы кнопки следовали друг за другом */
+    width: 82px;
+    height: 50px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(0, 0, 0, 0.3); /* Изменено на border, чтобы задать толщину границы */
+    display: inline-block;
+    margin-right: 10px;
+}
+
+button:hover {
+    border-color: yellow;
+}
+
+a {
+  color: white;
+  text-decoration-line: none;
+}
+
+.about, .friends, .contacts, .project 
+{  
+  font-family: "Arial";
+  position: absolute;
+  padding: 10px;
+  width: 940px;
+  height: 100%;
+  background-color: rgba(70, 70, 70, 1);
+  top: 10%;
+  left: 15%;
+  border-radius: 20px;
+  color: white;
+}
